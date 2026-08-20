@@ -1,0 +1,353 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hadijata Touré — Community Manager</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..900&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header class="site-nav">
+  <div class="brand">H<span>·</span>TOURÉ</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">☰</button>
+  <nav class="links" id="navLinks">
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#realisations">Réalisations</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#temoignages">Témoignages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+ 
+<!-- ================= HERO ================= -->
+<section id="accueil" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-eyebrow">Disponible à 100% · Premier emploi</div>
+      <h1>Hadijata <em>Touré</em></h1>
+      <div id="typed-role"></div>
+      <p class="tagline">Titulaire d'un Master en Finance et passionnée d'entrepreneuriat, je me suis formée au métier de Community Manager (programme SAS Women in Tech, Simplon Sénégal). Je conçois des identités de marque et des stratégies de contenus qui font parler les projets.</p>
+      <div class="btn-row">
+        <a href="#realisations" class="btn btn-primary">Voir mes réalisations</a>
+        <a href="cv-hadijata-toure.pdf" class="btn btn-ghost" download>Télécharger mon CV</a>
+      </div>
+    </div>
+ 
+    <div class="photo-stamp">
+      <svg class="stamp-ring" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <path id="ringPath" d="M150,150 m-140,0 a140,140 0 1,1 280,0 a140,140 0 1,1 -280,0"/>
+        </defs>
+        <text font-family="Space Mono, monospace" font-size="12" letter-spacing="3" fill="#E8A23C">
+          <textPath href="#ringPath" startOffset="0%">
+            COMMUNITY MANAGER • SAS WOMEN IN TECH • SIMPLON SÉNÉGAL •
+          </textPath>
+        </text>
+      </svg>
+ 
+      <div class="photo-frame">
+        <!-- ==========================================================
+             PHOTO DE PROFIL
+             Remplacez "photo-profil.jpg" par le chemin de votre photo
+             (même dossier que ce fichier HTML, ou une URL).
+             Le texte "photo-fallback" s'affiche automatiquement tant
+             qu'aucune image valide n'est trouvée.
+             ========================================================== -->
+        <img id="profile-photo"
+             src="image de profil hadijata.PNG"
+             alt="Photo de profil de Hadijata Touré"
+             onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='flex';">
+        <div id="photo-fallback" class="photo-fallback" style="display:flex;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= A PROPOS ================= -->
+<section id="apropos">
+  <div class="wrap">
+    <div class="eyebrow">À propos</div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>Hadijata Touré, titulaire d'un Master en Finance et passionnée d'entrepreneuriat, je me suis formée au métier de Community Manager dans le cadre du programme SAS Women in Tech de Simplon Sénégal.</p>
+        <p>Durant cette formation, j'ai travaillé sur un projet concret — Albarka AgroIndustrie (marques DEYDEY et FARO) — pour lequel j'ai construit l'identité de marque, la présence sur les réseaux sociaux et la stratégie de contenus.</p>
+        <p>Je recherche aujourd'hui mon premier emploi pour mettre ces compétences au service d'une entreprise ou d'une marque.</p>
+      </div>
+      <div class="id-card reveal">
+        <div class="id-row">
+          <div class="id-label">Formation suivie</div>
+          <div class="id-value">SAS Women in Tech, Simplon Sénégal — 7 semaines (SUP1-SUP5, CM1-CM6)</div>
+        </div>
+        <div class="id-row">
+          <div class="id-label">Localisation</div>
+          <div class="id-value">Sénégal</div>
+        </div>
+        <div class="id-row">
+          <div class="id-label">Disponibilité</div>
+          <div class="id-value">100%</div>
+        </div>
+        <div class="id-row">
+          <div class="id-label">Poste recherché</div>
+          <div class="id-value">Premier emploi — Community Manager</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= COMPETENCES ================= -->
+<section id="competences" class="section-light">
+  <div class="wrap">
+    <div class="eyebrow">Compétences</div>
+    <h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);">Ce que je sais faire</h2>
+  </div>
+  <div class="skills-grid wrap" style="padding:0;">
+    <div class="skill-card reveal">
+      <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+      <h3>Veille informationnelle</h3>
+      <p>Veille informationnelle et concurrentielle avec Feedly et Google Alertes pour anticiper les tendances.</p>
+    </div>
+    <div class="skill-card reveal">
+      <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      <h3>Identité visuelle</h3>
+      <p>Création d'identité visuelle et de charte graphique complète avec Canva.</p>
+    </div>
+    <div class="skill-card reveal">
+      <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 20c0-3-2-5-5-5s-5 2-5 5"/><circle cx="12" cy="7" r="4"/></svg>
+      <h3>Comptes professionnels</h3>
+      <p>Création et gestion de comptes pro sur Facebook, Instagram, LinkedIn, TikTok et WhatsApp Business.</p>
+    </div>
+    <div class="skill-card reveal">
+      <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h16M4 12h10M4 19h13"/></svg>
+      <h3>Production de contenus</h3>
+      <p>Contenus digitaux adaptés par plateforme : visuel, carrousel, story, vidéo courte.</p>
+    </div>
+    <div class="skill-card reveal">
+      <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      <h3>Montage vidéo</h3>
+      <p>Montage de vidéos publicitaires avec CapCut et VN, formats 16:9 et 9:16.</p>
+    </div>
+    <div class="skill-card reveal">
+      <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+      <h3>Tableaux de bord</h3>
+      <p>Suivi et gestion de projet via Trello et tableaux de suivi des ventes.</p>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= REALISATIONS ================= -->
+<section id="realisations">
+  <div class="wrap">
+    <div class="eyebrow">Réalisations</div>
+    <h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);">Albarka AgroIndustrie</h2>
+    <p class="project-intro">Stratégie digitale et identité de marque pour Albarka AgroIndustrie, une entreprise malienne portant les marques DEYDEY™ (épices) et FARO™ (fonio). Le projet a couvert le cahier des charges, l'identité visuelle, les comptes professionnels et une campagne de lancement vidéo.</p>
+ 
+    <div class="project-grid">
+      <div class="project-card reveal">
+        <div class="project-media">01</div>
+        <div class="project-body">
+          <h3>Cahier des charges &amp; identité visuelle</h3>
+          <p>Élaboration du cahier des charges et de la charte graphique (palette, typographie, déclinaisons par réseau) pour DEYDEY et FARO.</p>
+          <div class="tag-row">
+            <span class="tag">Canva</span><span class="tag">Coolors</span>
+          </div>
+          <div class="project-link">Lien démo — à préciser</div>
+        </div>
+      </div>
+ 
+      <div class="project-card reveal">
+        <div class="project-media">02</div>
+        <div class="project-body">
+          <h3>Comptes professionnels</h3>
+          <p>Création et paramétrage des comptes professionnels sur les réseaux sociaux pour porter la stratégie digitale globale d'Albarka.</p>
+          <div class="tag-row">
+            <span class="tag">Facebook</span><span class="tag">Instagram</span><span class="tag">LinkedIn</span><span class="tag">TikTok</span><span class="tag">WhatsApp Business</span>
+          </div>
+          <div class="project-link">Lien démo — à préciser</div>
+        </div>
+      </div>
+ 
+      <div class="project-card reveal">
+        <div class="project-media">03</div>
+        <div class="project-body">
+          <h3>Campagne de lancement DEYDEY</h3>
+          <p>Production de contenus et vidéo publicitaire pour le lancement du coffret découverte DEYDEY, montée en 16:9 puis adaptée en 9:16.</p>
+          <div class="tag-row">
+            <span class="tag">CapCut</span><span class="tag">VN</span>
+          </div>
+          <div class="project-link">Lien démo — à préciser</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= PARCOURS ================= -->
+<section id="parcours" class="section-light">
+  <div class="wrap">
+    <div class="eyebrow">Parcours</div>
+    <h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);">7 semaines de formation</h2>
+ 
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-num">01</div>
+        <div class="tl-content">
+          <h3>Semaine 1 — Bases de l'ordinateur</h3>
+          <p>Prise en main des bases de l'ordinateur, proposée en deux niveaux (intermédiaire et avancé).</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num">02</div>
+        <div class="tl-content">
+          <h3>Semaine 2 — Outils collaboratifs</h3>
+          <p>Prise en main des outils collaboratifs (Google Drive, Trello, Canva, Google Agenda) en travail de groupe.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num">03</div>
+        <div class="tl-content">
+          <h3>Semaine 3 — Découverte du métier</h3>
+          <p>Découverte du métier de Community Manager, recueil du besoin client et analyse comparative des plateformes sociales.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num">04</div>
+        <div class="tl-content">
+          <h3>Semaine 4 — Identité du projet Albarka</h3>
+          <p>Création des comptes professionnels et de l'identité visuelle (charte graphique, déclinaisons) du projet Albarka.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num">05</div>
+        <div class="tl-content">
+          <h3>Semaine 5 — Contenus digitaux</h3>
+          <p>Veille sur les contenus digitaux puis production de contenus adaptés (visuel, carrousel, story, vidéo courte) pour la marque DEYDEY.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num">06</div>
+        <div class="tl-content">
+          <h3>Semaine 6 — Vidéo publicitaire</h3>
+          <p>Création d'une vidéo publicitaire pour Facebook, montée avec CapCut (16:9) puis adaptée en VN (9:16).</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num">07</div>
+        <div class="tl-content">
+          <h3>Semaine 7 — Bilan et certification</h3>
+          <p>Finalisation du portfolio et des livrables du projet Albarka, préparation et passage de la soutenance orale, puis bilan de parcours et certification de fin de formation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= TEMOIGNAGES ================= -->
+<section id="temoignages">
+  <div class="wrap">
+    <div class="eyebrow">Témoignages</div>
+    <h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);">Ce qu'on en dit</h2>
+    <div class="quote-grid">
+      <div class="quote-card reveal">
+        <div class="mark">"</div>
+        <p>Hadijata a su comprendre rapidement les besoins du projet Albarka et proposer une identité visuelle cohérente pour DEYDEY et FARO. Sérieuse, organisée et toujours force de proposition.</p>
+        <div class="quote-who">— Exemple : Formateur/formatrice, Simplon Sénégal</div>
+      </div>
+      <div class="quote-card reveal">
+        <div class="mark">"</div>
+        <p>Un vrai sens du détail dans la gestion de nos comptes professionnels et la production de contenus. Le lancement du coffret découverte DEYDEY a été un succès grâce à son travail.</p>
+        <div class="quote-who">— Exemple : Responsable, Albarka AgroIndustrie</div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section-light">
+  <div class="wrap">
+    <div class="eyebrow">Contact</div>
+    <h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);margin-bottom:40px;">Travaillons ensemble</h2>
+    <div class="contact-grid">
+      <div class="contact-list">
+        <a href="mailto:touredija98@gmail.com" class="contact-item">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="label">Email</span>
+            <span class="value">touredija98@gmail.com</span>
+          </span>
+        </a>
+ 
+        <a href="tel:+221787942034" class="contact-item">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="label">Téléphone</span>
+            <span class="value">+221 78 79 42 034</span>
+          </span>
+        </a>
+ 
+        <a href="https://www.linkedin.com/in/hadijata-toure" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="label">LinkedIn</span>
+            <span class="value">Hadijata Touré</span>
+          </span>
+        </a>
+ 
+        <div class="contact-item na">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="label">GitHub</span>
+            <span class="value">Non applicable</span>
+          </span>
+        </div>
+      </div>
+ 
+      <form class="contact-form" id="contactForm">
+        <div class="field-row">
+          <div>
+            <label for="cf-name">Nom</label>
+            <input type="text" id="cf-name" required>
+          </div>
+          <div>
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" required>
+          </div>
+        </div>
+        <div>
+          <label for="cf-subject">Sujet</label>
+          <input type="text" id="cf-subject" required>
+        </div>
+        <div>
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;border:1px solid var(--ink);">Envoyer le message</button>
+        <div class="form-msg" id="formMsg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+ 
+<footer class="wrap">
+  <div>© <span id="year"></span> Hadijata Touré</div>
+  <a href="#accueil" id="back-top">Haut de page ↑</a>
+</footer>
+ 
+<script src="script.js"></script>
+ 
+</body>
+</html>
+ 
